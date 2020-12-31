@@ -1,0 +1,16 @@
+Name of Sort 	 Worst Case 	 Best Case 	Tic/Toc 	                   Tic/Toc 	                 Tic/Toc
+                 	 Theoretical	 Theoretical	Running Time	    Running Time	  Running Time
+                 	 Running Time	 Running Time	Descending Order	    Ascending Order	  Randomly Sorted Order
+------------------------------------------------------------------------------------------------------------------------------------------------
+Selection	 	O(n^2)		O(n^2)		234		    213		 219
+Insertion	 	O(n)		O(n^2)		76		    0		 36
+Bubble	 	O(n)		O(n^2)		304		    0		 500
+Merge	 	O(nlogn)		O(nlogn)		5		    5		 6
+Quick	 	O(nlogn)		O(n^2)		77		    86 		 4
+Heap	 	O(n)		O(nlogn)		24		    9		 9
+
+
+If the table doesn't format correctly just run it again.
+Run the program a few times and the average times will change. All times are in milliseconds.
+Most code implementation is taken off of the code that was provided to us from Prof Carr 
+or https://stackabuse.com/sorting-algorithms-in-java/.

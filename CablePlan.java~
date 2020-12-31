@@ -1,0 +1,15 @@
+public class CablePlan
+{
+  private static int numDays;
+  
+  public CablePlan() {
+    
+  }
+  
+  public void setNumDays(int numDays){
+    this.numDays = numDays;
+  }
+  public int getNumDays() {
+    return numDays;
+  }
+}

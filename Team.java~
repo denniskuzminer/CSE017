@@ -1,0 +1,20 @@
+public class Team
+{
+  private String locationName;
+  private String teamName;
+  private static String weeksPlayed;
+  private String[] dateList;
+  
+  public Team(String locationName, String teamName, String[] dateList){
+    
+  }
+  
+  public Team(String locationName, String[] dateList){
+    
+  }
+  
+  public Team(String[] dateList){
+    
+  }
+  
+}
